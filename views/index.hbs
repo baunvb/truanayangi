@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trưa nay ăn gì</title>
+    <link rel="stylesheet" href="./index.css">
+    <script type="text/javascript" src="./index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="m-select">
+        <span class="m-menu-lable">Chọn menu</span>
+        <select onchange="selectMenu()" name="menu" id="menu">
+            <option value="antrua">Ăn trưa nhẹ nhàng</option>
+            <option value="annhau">Ăn nhậu</option>
+            <option value="cafe">Cafe</option>
+            <option value="che">Chè</option>
+        </select>
+    </div>
+    <div class="m-game">
+        <div onclick="start()" id="btn_start" class="m-game__start"><img src="https://w.ladicdn.com/source/spin-btn1.svg" alt="" /></div>
+        <div class="m-game__wrapper"><img class="m-game__bg" src="https://w.ladicdn.com/source/spin-bg6.svg" alt="" />
+            <div id="order">
+                {{!-- <div class="m-game__text">Phần thưởng 0</div> --}}
+            </div>
+        </div>
+    </div>
+
+    <div onclick="refresh()" class="refresh">
+        Làm mới
+    </div>
+
+
+</body>
+</html>
