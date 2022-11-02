@@ -83,7 +83,7 @@ var DATA_MENU = {
     "Phúc Long",
     "Twitter Beans",
     "Phê La",
-    "HighLand",
+    "Trung Nguyên",
     "Tự pha"
   ],
   "che": [
